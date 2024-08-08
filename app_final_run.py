@@ -25,7 +25,8 @@ with col1:
                           
 st.text('')
 if st.button("Chance To Get Admission"):
-    result= clf.predict(np.array([[G,T,U,S,L,C,R]]))
+    data=np.array(np.array([[G,T,U,S,L,C,R]]))
+    result= clf.predict(data)
     st.text(result[0])
     
 st.markdown("Developed  at Pratha Modasia")
