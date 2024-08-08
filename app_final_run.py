@@ -16,14 +16,13 @@ st.header("")
 col1,col2 = st.columns(2)
 
 with col1:
-    # Define sliders in the sidebar
-G = float(st.sidebar.slider("GRE Score", 1.0, 340.0, 0.5))
-T = flaot(st.sidebar.slider("TOEFL Score", 1.0, 120.0, 0.5))
-U = float(st.sidebar.slider("University Rating", 1.0, 5.0, 1.0))
-S = float(st.sidebar.slider("SOP", 1.0, 5.0, 1.0))
-L = float(st.sidebar.slider("LOR", 1.0, 5.0, 1.0))
-C = float(st.sidebar.slider("CGPA", 1.0, 10.0, 0.5))
-R = float(st.sidebar.slider("Research", 0.0, 1.0, 0.5))
+    G = float(st.sidebar.slider("GRE Score", 1.0, 340.0, 0.5))
+    T = flaot(st.sidebar.slider("TOEFL Score", 1.0, 120.0, 0.5))
+    U = float(st.sidebar.slider("University Rating", 1.0, 5.0, 1.0))
+    S = float(st.sidebar.slider("SOP", 1.0, 5.0, 1.0))
+    L = float(st.sidebar.slider("LOR", 1.0, 5.0, 1.0))
+    C = float(st.sidebar.slider("CGPA", 1.0, 10.0, 0.5))
+    R = float(st.sidebar.slider("Research", 0.0, 1.0, 0.5))
 
 
                           
