@@ -29,7 +29,7 @@ with col1:
 st.text('')
 if st.button("Chance To Get Admission"):
     data1=np.array([[G,T,U,S,L,C,R]])
-        result=clf.predict(data1)
+    result=clf.predict(data1)
     st.text(result[0])
     
 st.markdown("Developed  at Pratha Modasia")
