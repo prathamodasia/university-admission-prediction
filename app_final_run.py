@@ -15,13 +15,13 @@ st.header("")
 col1,col2 = st.columns(2)
 
 with col1:
-    G= st.sidebar.slider("GRE Score", 1.0, 10000.0, 0.5)
-    T= st.sidebar.slider("TOEFL Score", 1.0, 10000.0, 0.5)
-    U= st.sidebar.slider("University Rating", 1.0, 10000.0, 0.5)
-    S= st.sidebar.slider("SOP", 1.0, 10000.0, 0.5)
-    L= st.sidebar.slider("LOR", 1.0, 10000.0, 0.5)
-    C= st.sidebar.slider("CGPA", 1.0, 10000.0, 0.5)
-    R= st.sidebar.slider("Research", 1.0, 10000.0, 0.5)
+    G= st.sidebar.slider("GRE Score", 1.0, 340.0, 0.5)
+    T= st.sidebar.slider("TOEFL Score", 1.0, 120.0, 0.5)
+    U= st.sidebar.slider("University Rating", 1.0, 5.0, 0.5)
+    S= st.sidebar.slider("SOP", 1.0, 5.0, 0.5)
+    L= st.sidebar.slider("LOR", 1.0, 5.0, 0.5)
+    C= st.sidebar.slider("CGPA", 1.0, 10.0, 0.5)
+    R= st.sidebar.slider("Research", 0.0, 1.0, 0.5)
                           
 st.text('')
 if st.button("Chance To Get Admission"):
