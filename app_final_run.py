@@ -3,7 +3,8 @@ import numpy as np
 import pickle
 
 # Load the model once
-clf = pickle.load(open("university.pkl", "rb"))
+with open("university.pkl", "rb") as f:
+    clf = pickle.load(f)
 
 def predict(data):
     return clf.predict(data)
