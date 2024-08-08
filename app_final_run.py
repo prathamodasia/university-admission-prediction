@@ -18,9 +18,9 @@ col1, col2 = st.columns(2)
 with col1:
     G = st.slider("GRE Score", 1.0, 340.0, 0.5)
     T = st.slider("TOEFL Score", 1.0, 120.0, 0.5)
-    U = st.slider("University Rating", 1.0, 5.0, 1.0)
-    S = st.slider("SOP", 1.0, 5.0, 1.0)
-    L = st.slider("LOR", 1.0, 5.0, 1.0)
+    U = st.slider("University Rating", 1.0, 5.0, 1)
+    S = st.slider("SOP", 1.0, 5.0, 1)
+    L = st.slider("LOR", 1.0, 5.0, 1)
     C = st.slider("CGPA", 1.0, 10.0, 0.5)
     R = st.slider("Research", 0.0, 1.0, 0.5)
 
