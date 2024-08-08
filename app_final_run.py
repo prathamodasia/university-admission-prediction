@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import pickle
 
-clf = pickle.load(open("case_study_university.pkl","rb"))
+clf = pickle.load(open("university.pkl","rb"))
 
 def predict(data):
     return clf.predict(data)
