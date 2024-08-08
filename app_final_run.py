@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-with open('university.pkl',"rb") as file:
-    clf =pickle.load(open("university.pkl","rb"))
+
+clf =pickle.load(open("university.pkl","rb"))
 
 def predict(data):
     clf =pickle.load(open("university.pkl","rb"))
